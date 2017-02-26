@@ -34,6 +34,13 @@
             "files": ["**/[!_]*.{sass,scss}"],
             "watch": ["**/*.{sass,scss}"]
         },
+        "app": {
+          "src": "app",
+          "dest": "./",
+          "files": "app.js",
+          "watch": "app.js",
+          "eslint": {}
+        },
         "html": {
             "src": "html",
             "dest": "",

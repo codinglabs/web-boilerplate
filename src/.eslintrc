@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb",
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "rules": {
+      no-console: 0,
+      quotes: 0,
+      no-unused-vars: 1,
+      prefer-template: 0, // Remove with switch to ES2016
+      no-param-reassign: 0,
+      arrow-parens: 0
+    },
+    "ecmaFeatures": {
+        "modules": true
+    }
+}

@@ -13,7 +13,8 @@ let tasks = {
     fonts:      { path: './tasks/copy', id: 'Fonts' },
     html:       { path: './tasks/copy', id: 'HTML' },
     images:     { path: './tasks/images' },
-    sprites:    { path: './tasks/sprites' }
+    sprites:    { path: './tasks/sprites' },
+    app:        { path: './tasks/app'}
 };
 
 // specific task requested, pick it and remove other tasks
